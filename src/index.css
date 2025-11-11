@@ -9,3 +9,10 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.profile-pic{
+    height: 40px;
+    width: 40px
+}
+.post{
+    width: 350px;
+}

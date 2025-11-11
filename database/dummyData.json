@@ -1,0 +1,114 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/john_doe.jpg"
+      },
+      "image": "src/assets/posts/sunset_beach.jpg",
+      "caption": "Golden hour hits different 🌅 #beachvibes #sunset",
+      "likes": 245,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "This is breathtaking! 😍"
+        },
+        {
+          "user": "mark_92",
+          "comment": "Where was this taken?"
+        }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "sarah_arts",
+        "profile_pic": "src/assets/sarah_arts.jpg"
+      },
+      "image": "src/assets/posts/painting_studio.jpg",
+      "caption": "Weekend therapy 🎨🖌️ #artislife #creative",
+      "likes": 182,
+      "comments": [
+        {
+          "user": "john_doe",
+          "comment": "You’re so talented 👏"
+        },
+        {
+          "user": "emily_rose",
+          "comment": "Love the colors!"
+        }
+      ],
+      "timestamp": "2025-03-02T10:15:00Z"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "traveler_max",
+        "profile_pic": "src/assets/traveler_max.jpg"
+      },
+      "image": "src/assets/posts/mountain_peak.jpg",
+      "caption": "On top of the world 🏔️ #adventure #naturelover",
+      "likes": 329,
+      "comments": [
+        {
+          "user": "sarah_arts",
+          "comment": "This view is insane!"
+        },
+        {
+          "user": "mike_cook",
+          "comment": "Bucket list spot for sure!"
+        }
+      ],
+      "timestamp": "2025-04-21T08:45:00Z"
+    },
+    {
+      "id": 4,
+      "user": {
+        "id": 104,
+        "username": "foodie_jane",
+        "profile_pic": "src/assets/foodie_jane.jpg"
+      },
+      "image": "src/assets/posts/italian_pasta.jpg",
+      "caption": "Homemade pasta night 🍝🇮🇹 #foodlover #homemade",
+      "likes": 210,
+      "comments": [
+        {
+          "user": "traveler_max",
+          "comment": "Looks delicious 🤤"
+        },
+        {
+          "user": "john_doe",
+          "comment": "Recipe please!"
+        }
+      ],
+      "timestamp": "2025-05-19T19:00:00Z"
+    },
+    {
+      "id": 5,
+      "user": {
+        "id": 105,
+        "username": "tech_guru",
+        "profile_pic": "src/assets/tech_guru.jpg"
+      },
+      "image": "src/assets/posts/setup_workspace.jpg",
+      "caption": "New desk setup ready for coding! 💻✨ #techlife #workspace",
+      "likes": 375,
+      "comments": [
+        {
+          "user": "sarah_arts",
+          "comment": "That lighting is perfect!"
+        },
+        {
+          "user": "mark_92",
+          "comment": "What monitor are you using?"
+        }
+      ],
+      "timestamp": "2025-06-10T16:25:00Z"
+    }
+  ]
+}

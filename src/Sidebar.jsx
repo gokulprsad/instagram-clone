@@ -6,18 +6,19 @@ function Sidebar() {
     <div>
       <div className='d-flex flex-column m-3 gap-4 '>
             <img className='size' src={instaText} alt="" />
-            <div><i class="bi bi-house-door"></i>Home</div>
-            <div><i class="bi bi-search"></i>Search</div>
-            <div><i class="bi bi-compass"></i>Explore</div>
-            <div><i class="bi bi-play-btn"></i>Reels</div>
-            <div><i class="bi bi-chat-dots"></i> Messages</div>
-            <div><i class="bi bi-heart"></i>Notifications</div>
-            <div><i class="bi bi-plus-square"></i>Create</div>
-            <div><i class="bi bi-person-circle"></i>Profile</div>
+            <div><i className="bi bi-house-door me-2"></i>Home</div>
+            <div><i className="bi bi-search me-2"></i>Search</div>
+            <div><i className="bi bi-compass me-2"></i>Explore</div>
+            <div><i className="bi bi-play-btn me-2"></i>Reels</div>
+            <div><i className="bi bi-chat-dots me-2"></i>Messages</div>
+            <div><i className="bi bi-heart me-2"></i>Notifications</div>
+            <div><i className="bi bi-plus-square me-2"></i>Create</div>
+            <div><i className="bi bi-person-circle me-2"></i>Profile</div>
+
       </div>
       <div className='position-fixed d-flex flex-column bottom-0 m-3 gap-4'>
-            <div><i class="bi bi-threads"></i>Threads</div>
-            <div><i class="bi bi-list"></i>More</div>   
+            <div><i className="bi bi-threads"></i>Threads</div>
+            <div><i className="bi bi-list"></i>More</div>   
       </div>
     </div>
   )

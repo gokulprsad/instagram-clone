@@ -1,12 +1,14 @@
 import React from 'react'
+import Sidebar from './Sidebar'
 
 function App() {
   return (
-    <div>
-      <div>sidebar</div>
-      <div>feed</div>
-      <div>suggestions</div>
-    </div>
+
+   <div className='d-flex vh-100'>
+     <div className='w-20'><Sidebar /></div>
+     <div className='w-50 bg-primary'>feed</div>
+     <div className='w-30'>suggestions</div>
+  </div>
   )
 }
 

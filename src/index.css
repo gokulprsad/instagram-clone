@@ -11,8 +11,13 @@
 }
 .profile-pic{
     height: 40px;
-    width: 40px
+    width: 40px;
+    margin-bottom: 5px;
+    margin-right: 10px;
 }
 .post{
     width: 350px;
+}
+.borde{
+    margin-bottom: 20px;
 }

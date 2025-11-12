@@ -110,5 +110,50 @@
       ],
       "timestamp": "2025-06-10T16:25:00Z"
     }
+  ],
+  
+  "profile": {
+    "id": 101,
+    "username": "Goku__S",
+    "full_name": "John Doe",
+    "bio": "Photographer | Traveler 🌍 | Coffee addict ☕",
+    "profile_pic": "src/assets/Goku.jpg",
+    "followers": 1250,
+    "following": 480,
+    "posts": [1, 6, 9]
+  },
+
+  "suggestions": [
+    {
+      "id": 102,
+      "username": "sarah_arts",
+      "profile_pic": "src/assets/sarah_arts.jpg",
+      "mutual_followers": ["john_doe"]
+    },
+    {
+      "id": 103,
+      "username": "traveler_max",
+      "profile_pic": "src/assets/traveler_max.jpg",
+      "mutual_followers": ["john_doe", "sarah_arts"]
+    },
+    {
+      "id": 104,
+      "username": "foodie_jane",
+      "profile_pic": "src/assets/foodie_jane.jpg",
+      "mutual_followers": []
+    },
+    {
+      "id": 106,
+      "username": "mike_cook",
+      "profile_pic": "src/assets/mike_cook.jpg",
+      "mutual_followers": ["sarah_arts"]
+    },
+    {
+      "id": 107,
+      "username": "alice_wonder",
+      "profile_pic": "src/assets/alice_wonder.jpg",
+      "mutual_followers": ["traveler_max"]
+    }
   ]
 }
+

@@ -11,16 +11,16 @@ const Posts = () => {
   }, [])
 
   return (
-    <div>
+    <div className='d-flex justify-content-center'>
       {posts.length > 0 ? (
         <div>
           {posts.map((post) => (
             <div key={post.id}>
-            <div className='d-flex' key={post.id}>
-                <img className='rounded-circle profile-pic'src={post.user.profile_pic} alt="" />
+            <div className='d-flex one' >
+                <img className='rounded-circle profile-pic'src={post.user.profile_pic} alt="image profile" />
               <p>{post.user.username}</p>
               {console.log(posts)}
-            </div>
+            </div >
               <img className='post' src={post.image} alt="" />
               <div>
                 <i className="bi bi-heart"></i>
@@ -32,7 +32,7 @@ const Posts = () => {
                   {post.likes}
                 </b>
               </div>
-              <p>{post.caption}</p>
+              <p className='borde'>{post.caption}</p>
               </div>
           ))}
         </div>

@@ -154,6 +154,54 @@
       "profile_pic": "src/assets/alice_wonder.jpg",
       "mutual_followers": ["traveler_max"]
     }
+  ],
+  
+ 
+  "story": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/john_doe.jpg"
+      },
+      "image": "src/assets/john_doe.jpg"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "sarah_lee",
+        "profile_pic": "src/assets/sarah_arts.jpg"
+      },
+      "image": "src/assets/posts/s2.jpg"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "traveler_max",
+        "profile_pic": "src/assets/traveler_max.jpg"
+      },
+      "image": "src/assets/posts/s3.jpg"
+    },
+    {
+      "id": 4,
+      "user": {
+        "id": 104,
+        "username": "foodie_jane",
+        "profile_pic": "src/assets/foodie_jane.jpg"
+      },
+      "image": "src/assets/posts/s4.jpg"
+    },
+    {
+      "id": 5,
+      "user": {
+        "id": 105,
+        "username": "tech_guru",
+        "profile_pic": "src/assets/tech_guru.jpg"
+      },
+      "image": "src/assets/posts/s5.jpg"
+    }
   ]
 }
-

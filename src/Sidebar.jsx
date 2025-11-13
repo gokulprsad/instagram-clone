@@ -3,7 +3,7 @@ import instaText from './assets/insta-text.webp'
 
 function Sidebar() {
   return (
-    <div>
+    <div className='position-fixed top-0 z-index: 1020;'>
       <div className='d-flex flex-column m-3 gap-4 '>
             <img className='size' src={instaText} alt="" />
             <div><i className="bi bi-house-door me-2"></i>Home</div>

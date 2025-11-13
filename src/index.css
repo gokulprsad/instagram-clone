@@ -21,3 +21,50 @@
 .borde{
     margin-bottom: 20px;
 }
+/*  */
+
+/* Stories container */
+.stories-container {
+  display: flex;
+  gap: 10px;              /* space between story circles */
+  padding: 10px;
+  background: linear-gradient(
+    135deg,
+    #fdfbfb 0%,
+    #ebedee 100%
+  );                      /* soft light gradient */
+  border-radius: 15px;    /* rounded corners like Instagram */
+  overflow-x: auto;       /* horizontal scrolling */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Individual story */
+/* .story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70px;
+  cursor: pointer;
+} */
+ .story{
+    display: flex;
+    gap: 20px;
+ }
+
+.story img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #ff004f; /* Instagram gradient border simulation */
+  padding: 2px;
+  background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+  object-fit: cover;
+}
+
+/* Story username */
+.story p {
+  font-size: 12px;
+  margin-top: 5px;
+  text-align: center;
+  color: #333;
+}

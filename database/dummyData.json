@@ -165,7 +165,7 @@
         "username": "john_doe",
         "profile_pic": "src/assets/john_doe.jpg"
       },
-      "image": "src/assets/john_doe.jpg"
+      "image": "/src/assets/john_doe.jpg"
     },
     {
       "id": 2,
@@ -174,7 +174,7 @@
         "username": "sarah_lee",
         "profile_pic": "src/assets/sarah_arts.jpg"
       },
-      "image": "src/assets/posts/s2.jpg"
+      "image": "/src/assets/posts/s2.jpg"
     },
     {
       "id": 3,
@@ -183,7 +183,7 @@
         "username": "traveler_max",
         "profile_pic": "src/assets/traveler_max.jpg"
       },
-      "image": "src/assets/posts/s3.jpg"
+      "image": "/src/assets/posts/s3.jpg"
     },
     {
       "id": 4,
@@ -192,7 +192,7 @@
         "username": "foodie_jane",
         "profile_pic": "src/assets/foodie_jane.jpg"
       },
-      "image": "src/assets/posts/s4.jpg"
+      "image": "/src/assets/posts/s4.jpg"
     },
     {
       "id": 5,
@@ -201,7 +201,7 @@
         "username": "tech_guru",
         "profile_pic": "src/assets/tech_guru.jpg"
       },
-      "image": "src/assets/posts/s5.jpg"
+      "image": "/src/assets/posts/s5.jpg"
     }
   ]
 }

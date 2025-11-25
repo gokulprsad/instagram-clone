@@ -1,7 +1,9 @@
 import React from 'react'
 import instaText from './assets/insta-text.webp'
+import { useNavigate } from 'react-router-dom';
 
 function Sidebar() {
+  const navigate = useNavigate();
   return (
     <div className='position-fixed top-0 z-index: 1020;'>
       <div className='d-flex flex-column m-3 gap-4 '>
@@ -13,7 +15,7 @@ function Sidebar() {
             <div><i className="bi bi-chat-dots me-2"></i>Messages</div>
             <div><i className="bi bi-heart me-2"></i>Notifications</div>
             <div><i className="bi bi-plus-square me-2"></i>Create</div>
-            <div><i className="bi bi-person-circle me-2"></i>Profile</div>
+            <div onClick={()=> navigate('/profile')}><i className="bi bi-person-circle me-2"></i>Profile</div>
 
       </div>
       <div className='position-fixed d-flex flex-column bottom-0 m-3 gap-4'>
